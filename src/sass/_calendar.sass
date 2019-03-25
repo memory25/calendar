@@ -1,0 +1,57 @@
+$todayColor: #db3d44
+$selectDateColor: #db3d44
+
+    
+#calendar
+    min-width: 300px
+    border: 1px solid grey
+    padding: 10px 20px
+    box-sizing: border-box
+    user-select: none
+    button
+        background: transparent
+        border: none
+        height: 30px
+        border-radius: 100%
+        outline: none
+    .calendarHead
+        width: 100%
+        display: flex
+        margin: 10px 0
+        .content
+            width: 100%
+            margin: 0 20px
+            font-weight: 700
+        .arrowL, .arrowR
+            width: 30px
+            text-align: center
+            &::before
+                content: ''
+                width: 7px
+                height: 7px
+                display: inline-block
+                border: 0 solid
+                border-width: 1px 1px 0 0
+                box-sizing: border-box
+        .arrowL::before
+            transform: rotate(-135deg)
+        .arrowR::before
+            transform: rotate(45deg)
+    .calendarBody
+        padding: 20px 0
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        .btnWrap
+            text-align: center
+
+    .today
+        color: $todayColor !important
+    .selectDate
+        background: $selectDateColor
+        color: #fff !important
+    #years,#months
+        .today
+            background: $selectDateColor
+            color: #fff !important
+            font-weight: 700
