@@ -10,7 +10,7 @@
 | onSelect | function({year,month,date,day}) |            | when select a day, you can see log in F12 console |
 
 DatePicker formatter (YYYY-MM-DD).
-You can only modify only one Number(Y or M or D) at the same time
+You can just modify only one Number(Y or M or D) at the same time
 
 ## Toolchain
 
