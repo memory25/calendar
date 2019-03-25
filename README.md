@@ -1,6 +1,4 @@
-# Trend Micro Frontend Interview Test
-
-Calendar、DatePicker
+# Calendar、DatePicker
 
 ## Component
 
